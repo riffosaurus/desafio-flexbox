@@ -1,0 +1,149 @@
+/* definicion de estilos globales, tipografia, colores */
+* {
+    font-family: 'Open Sans', sans-serif; 
+}
+/*ajustes de imagenes*/
+
+.imagen-perfil-grande img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0.5em;
+}
+
+.imagen-perfil img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 0.5em;
+}
+
+/*ajustes estilisticos*/
+
+.boton-chat button {
+    background-color: #A491D2;
+    border: #A491D2;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.boton-chat p {
+    color: white;
+}
+
+.iconos i {
+padding-right: 0.5em;
+}
+
+
+
+
+/*ajustes de contenedores flex*/
+
+.imagen-perfil-grande {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    border-color:#BEC1BB;
+   
+}
+
+
+
+.descripcion-grande {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 10%;
+}
+
+
+.imagen-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: solid 1px;
+    border-color:#BEC1BB;
+    padding: 0.5em;
+
+}
+
+.boton-chat {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px;
+    border-color:#BEC1BB;
+    padding: 2em;
+}
+
+.flex-secciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 1px;
+    border-color: #BEC1BB;
+    flex-grow: 1;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 5px;
+    padding: 5px;
+    }
+    
+.card-header {
+    flex-grow: 1;
+    flex-basis: 25%;
+    
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    flex-basis: 50%;
+    align-items: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    }
+    
+.card-footer {
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.seccion-perfiles {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+
+/*ajustes de texto*/
+.seccion-principal h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.seccion-principal p {
+    text-align: center;
+}
